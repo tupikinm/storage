@@ -89,3 +89,7 @@ _Тело_: Игнорируется
 curl --location --request DELETE 'http://localhost:8081/kv/1' \
 --header 'Content-Type: application/json'
 ```
+
+## Пример
+
+Файл client.lua содержит пример выполнения запросов с помощью __tarantool http.client__
